@@ -11,7 +11,7 @@ return new class extends Migration {
             $table->id();
             $table->string('title');
             $table->longText('description');
-            $table->string('column_url');
+            $table->string('cover_url');
             $table->float('price');
             $table->integer('quantity');
         });
